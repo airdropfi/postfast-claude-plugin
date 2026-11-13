@@ -1,0 +1,23 @@
+{
+  "name": "postfast-plugins",
+  "description": "Claude Code plugins from PostFast (postfast.sh).",
+  "owner": {
+    "name": "PostFast",
+    "email": "support@postfast.sh",
+    "url": "https://postfast.sh"
+  },
+  "plugins": [
+    {
+      "name": "postfast",
+      "source": "./plugins/postfast",
+      "description": "PostFast lets an AI assistant draft YouTube and TikTok video posts in your PostFast account; you review and press Post in PostFast.",
+      "category": "productivity",
+      "tags": [
+        "youtube",
+        "tiktok",
+        "video-scheduling",
+        "mcp"
+      ]
+    }
+  ]
+}
